@@ -25,8 +25,5 @@ onReverseClick(): void {
   }
 
 
-onDelete = output<void>(); 
-  onDeleteClick(): void {
-    this.onDelete.emit(); 
-  }
+
 }
